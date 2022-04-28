@@ -26,7 +26,7 @@ export default function Home() {
           <p>Kako mogu pomoći?</p>
         </div>
       </div>
-      <div className='md:h-screen h-[50vh] flex flex-col justify-center items-center'>
+      <div className='h-screen flex flex-col justify-center items-center'>
         <motion.h1 initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0}}} className='text-2xl md:text-5xl font-medium py-2'>Knjige za <span className='text-bebi'>djecu</span> 😀</motion.h1>
         <motion.p initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0.3}}} className='text-gray-500 md:text-lg'>Naučimo djecu čitati od malih nogu</motion.p>
         <div className='my-8'>
