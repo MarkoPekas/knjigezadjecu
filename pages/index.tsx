@@ -58,7 +58,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='min-h-screen flex flex-col md:flex-row'>
+      <div className='min-h-screen flex flex-col-reverse bg-gray-50 md:flex-row'>
         <div className='flex-1 flex justify-center items-center p-4 md:p-12'>
           <motion.p initial={{opacity: 0, y:20}} whileInView={{opacity: 1, y:0, transition: {delay: 0.3}}} className='md:text-lg text-center'>Pozitivni rezultati čitanja može se vidjeti kod male djece. Mala djeca koja čitaju imaju bolje sposobnosti govora, bolje razumijevanje gramatike i veće riječnike. Također, oni koji često čitaju imaju bolje sposobnosti razmišljanja i kritičkog razmišljanja.</motion.p>
         </div>
