@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </div>
       <div className='h-screen flex flex-col justify-center items-center'>
-        <motion.h1 initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0}}} className='text-2xl md:text-5xl font-medium py-2'>Knjige za <span className='text-bebi'>djecu</span> 😀</motion.h1>
+        <motion.h1 initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0}}} className='text-2xl md:text-5xl font-medium py-2'>Audio-knjige za <span className='text-bebi'>djecu</span> 😀</motion.h1>
         <motion.p initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0.3}}} className='text-gray-500 md:text-lg'>Naučimo djecu čitati od malih nogu</motion.p>
         <div className='my-8'>
           <motion.div initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0.6}}} whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className='px-4 py-2 rounded bg-bebi text-white font-medium cursor-pointer flex items-center'>
