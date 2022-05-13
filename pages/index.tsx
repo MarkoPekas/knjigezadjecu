@@ -27,8 +27,8 @@ export default function Home() {
         </div>
       </div>
       <div className='h-screen flex flex-col justify-center items-center'>
-        <motion.h1 initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0}}} className='text-2xl md:text-5xl font-medium py-2'>Audio-knjige za <span className='text-bebi'>djecu</span> 😀</motion.h1>
-        <motion.p initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0.3}}} className='text-gray-500 md:text-lg'>Naučimo djecu čitati od malih nogu</motion.p>
+        <motion.h1 initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0}}} className='text-2xl md:text-5xl font-medium py-2'>Čitaj <span className='text-bebi'>mi</span></motion.h1>
+        <motion.p initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0.3}}} className='text-gray-500 md:text-lg'>Naučimo djecu čitati od malih nogu 😁</motion.p>
         <video controls autoPlay className='w-full max-w-xl py-4 px-2'>
             <source src="Audio knjige- Čitaj mi.mp4" type="video/mp4" />
             Your browser does not support the video tag.
