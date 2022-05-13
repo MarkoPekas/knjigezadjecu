@@ -29,7 +29,11 @@ export default function Home() {
       <div className='h-screen flex flex-col justify-center items-center'>
         <motion.h1 initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0}}} className='text-2xl md:text-5xl font-medium py-2'>Audio-knjige za <span className='text-bebi'>djecu</span> 😀</motion.h1>
         <motion.p initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0.3}}} className='text-gray-500 md:text-lg'>Naučimo djecu čitati od malih nogu</motion.p>
-        <div className='my-8'>
+        <video controls autoPlay className='w-full max-w-xl py-4 px-2'>
+            <source src="Audio knjige- Čitaj mi.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        <div className='my-2'>
           <motion.div initial={{opacity: 0, y:40}} whileInView={{opacity: 1, y:0, transition: {delay: 0.6}}} whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className='px-4 py-2 rounded bg-bebi text-white font-medium cursor-pointer flex items-center'>
           <svg xmlns="http://www.w3.org/2000/svg" className='mr-2' width="32" height="32" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#fff" fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
